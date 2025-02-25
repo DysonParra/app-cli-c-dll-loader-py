@@ -1,2 +1,2 @@
-python_36_x86 Application.py
+python Application.py
 ::@PAUSE

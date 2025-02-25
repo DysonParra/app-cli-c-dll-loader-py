@@ -1,30 +1,17 @@
-'''
-https://docs.python.org/3/library/ctypes.html
-ctypes type			C type							Python type
-c_bool				_Bool							bool (1)
-c_char				char							1-character bytes object
-c_wchar				wchar_t							1-character string
-c_byte				char							int
-c_ubyte				unsigned char					int
-c_short				short							int
-c_ushort			unsigned short					int
-c_int				int								int
-c_uint				unsigned int					int
-c_long				long							int
-c_ulong				unsigned long					int
-c_longlong			__int64 or long long			int
-c_ulonglong			unsigned __int64 				int
-c_ulonglong			unsigned long long				int
-c_size_t			size_t							int
-c_ssize_t			ssize_t or Py_ssize_t			int
-c_float				float							float
-c_double			double							float
-c_longdouble		long double						float
-c_char_p			char * (NUL terminated)			bytes object or None
-c_wchar_p			wchar_t * (NUL terminated)		string or None
-c_void_p			void *							int or None
-'''
+"""
+@fileoverview    {Application}
 
+@version         2.0
+
+@author          Dyson Arley Parra Tilano <dysontilano@gmail.com>
+
+@copyright       Dyson Parra
+@see             github.com/DysonParra
+
+History
+@version 1.0     Implementation done.
+@version 2.0     Documentation added.
+"""
 import ctypes
 from ctypes import *
 #print(windll.kernel32)
