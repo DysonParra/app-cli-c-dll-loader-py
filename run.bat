@@ -1,2 +1,2 @@
-python Application.py
+python-32 app.py
 ::@PAUSE
